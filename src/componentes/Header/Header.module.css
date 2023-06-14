@@ -1,0 +1,32 @@
+.header{
+    margin: 1rem;
+}
+
+
+.img{ 
+    width: 20rem;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.divBuscar{
+    margin-left: 1rem;
+}
+
+.input{
+    width: 90%;
+    padding: .6rem;
+    border-radius: 2rem;
+}
+
+.menu{
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    font-size: 1.5rem;
+    /*Remove as marcas de bolinhas do li*/
+    list-style-type: none;
+
+    display: flex;
+    gap: 0.7rem;
+}
