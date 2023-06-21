@@ -76,3 +76,30 @@ export function Carrossel() {
   );
 }
 
+
+
+import Carousel from 'react-bootstrap/Carousel';
+
+export function Carrossel() {
+  return (
+        
+    <div className={Style.divPaiCarrossel}>   
+    
+        <Swiper className={Style.carrossel_container}
+            modules={[Navigation, Pagination]}
+            navigation
+            pagina
+            tion
+        >
+            {slides.map((slide, index) => (
+    
+              <SwiperSlide key={index} className={Style.slide_item}>
+    
+                <img src={slide} alt={slides} className={Style.imagem} />
+    
+              </SwiperSlide>
+            ))}
+        </Swiper>
+    </div>
+  );
+}

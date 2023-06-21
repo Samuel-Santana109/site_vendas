@@ -32,12 +32,14 @@ function Header(){
           
 
             <ul className={Style.menu}> 
-                <li> Lojas e Alimentação</li>
-                <li> | Notícias</li>
-                <li> | Cinema </li>
-                <li> | Agenda</li>
-                <li> | Casapark</li>
-                <li> | shopcasapark</li>
+                <li> Cusos para desenvolvedores</li>
+                <li> | Markenting Digitial</li>
+                <li> | Vendas </li>
+                <li> | Ingles</li>
+                <li> | Afiliados e Plr</li>
+                <li> | Dropshipp</li>
+                <li> | Produtos de tecnologia</li>
+
             </ul>
         </header>
     )   

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel_container {
+  width: 100%;
+  /*Aqui controla a barra de navegaçao*/
+  overflow: auto;
+}
+
+.carousel {
+  margin: 1rem;
+  width: 100%;
+  
+    /*Aqui controla a barra de navegaçao*/
+  transition: transform 0.3s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.carousel_item {
+  flex: 1 1 100%;
+}
+
+/*
+//Quando passa o mouse por cima ele gira automaticamente
+.carousel_container:hover .carousel {
+  transform: translateX(-100%);
+}
+
+//Espa
+.carousel_container:hover .carousel-item:first-child {
+  margin-left: 100%;
+}
+*/
