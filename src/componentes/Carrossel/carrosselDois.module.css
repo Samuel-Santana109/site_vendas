@@ -1,0 +1,47 @@
+.carousel-container {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .carousel {
+    animation: carousel-animation 10s infinite;
+    transition: transform 0.3s ease-in-out;
+    animation-duration: 20s; /* Ajuste o valor para a duração desejada */
+    animation-timing-function: linear; /* Pode ajustar a função de tempo conforme necessário */
+    animation-fill-mode: forwards; /* Mantém o estado final da animação após a conclusão */
+  
+    display: flex;
+    gap: 8%;
+  }
+  
+  .item {
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+
+  /*@keyframes carousel-animation {
+    0% {
+      opacity: 9;
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+      transform: translateY(-80%);
+    }
+  }
+  */
+  
+  @keyframes carousel-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

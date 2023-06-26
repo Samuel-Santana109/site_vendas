@@ -1,0 +1,34 @@
+
+.carousel_container {
+    width: 100%;
+    /*Aqui controla a barra de navegaçao*/
+    overflow: auto;
+  }
+  
+  .carousel {
+    margin: 1rem;
+    width: 100%;
+    
+      /*Aqui controla a barra de navegaçao*/
+    transition: transform 0.3s ease-in-out;
+  
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .carousel_item {
+    flex: 1 1 100%;
+  }
+
+@keyframes carousel-animation {
+    0% {
+      opacity: 1;
+      transform: rotateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: rotateY(180deg);
+    }
+  }
+  

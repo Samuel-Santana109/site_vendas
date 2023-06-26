@@ -1,0 +1,6 @@
+.div{
+    margin: 6rem;
+    display:  flex;
+    flex-direction: column;
+    gap: 80px;
+}

@@ -1,23 +1,49 @@
 .header{
-    margin: 1rem;
+    box-sizing: border-box;
+    margin: 0.7rem;
 }
 
+.subMenuUm{
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.divImgInput{
+    display: flex;
+    align-items: center;
+}
 
 .img{ 
-    width: 20rem;
+    width: 40rem;
+    height: 10rem;
     margin: 1rem;
     margin-left: 2rem;
 }
 
+
 .divBuscar{
+
     margin-left: 1rem;
 }
 
 .input{
-    width: 90%;
+    width: 100%;
     padding: .6rem;
     border-radius: 2rem;
+    box-sizing: border-box; /* Adicione essa propriedade para incluir o padding e a borda no cálculo da largura total */
+    height: 3rem; /* Defina uma altura desejada */
 }
+
+.divLista{
+    display: flex;
+}
+
+.divEscritos{
+    display: flex;
+    gap: 15px;
+}
+
 
 .menu{
     margin-top: 1rem;

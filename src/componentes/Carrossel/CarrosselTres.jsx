@@ -1,22 +1,11 @@
-import Style from './carrosselProps.module.css';
-import { useRef } from 'react';
+import Style from './CarrosselTres.module.css';
 
-export function CarrosselProps(props){
+export function CarrosselTres(props){
 
-    const carrosselRef = useRef(null)
-
-    function FunçaoLadoEsquerdo(){
-        carrosselRef.current.scrollLeft -= carrosselRef.current.offsetWidth
-    }
-
-    function FunçaLadoDireito(){
-        carrosselRef.current.scrollLeft += carrosselRef.current.offsetWidth
-    }
 
     return(
         <div>
-           
-                <div className={Style.carousel_container} ref={carrosselRef}>
+                <div className={Style.carousel_container}>
 
                     <div className={Style.carousel}>
 
@@ -52,12 +41,6 @@ export function CarrosselProps(props){
 
                     </div>    
                 </div>
-
-                <span className={Style.divBotoes}>
-                     <button onClick={FunçaoLadoEsquerdo} className={Style.button}>Lado Esquerdo</button>
-                     <button onClick={FunçaLadoDireito} className={Style.button}> Lado Direito</button>
-                </span>
-           
         </div>
     )
 }

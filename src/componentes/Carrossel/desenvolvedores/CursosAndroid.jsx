@@ -5,7 +5,7 @@ import cursoDeDesenvolvimentoAplicativosIos from "../../../../public/cursosImage
 
 
 //Carrossel para desemvolvedores
-export function CursosIos() {
+export function CursosAndroid() {
  
       return(
         <div>
@@ -13,7 +13,7 @@ export function CursosIos() {
             <h1>Cursos para desenovimento Ios</h1>
            
             <CarrosselTres  
-                  titulo1="Curso do gustavo guanabara"
+                  titulo1="Curso do CursosAndroid"
                   src1={cursoDeDesenvolvimentoAplicativosIos}
                   alt1="imagem 1"
 
@@ -21,19 +21,19 @@ export function CursosIos() {
                   src2={cursoDeDesenvolvimentoAplicativosIos}
                   alt2="imagem 2"
 
-                  titulo3="Curso do gustavo guanabara"
+                  titulo3="Curso do CursosAndroid"
                   src3={cursoDeDesenvolvimentoAplicativosIos}
                   alt3="imagem 3"
 
-                  titulo4="Curso do gustavo guanabara"
+                  titulo4="Curso do CursosAndroid"
                   src4={cursoDeDesenvolvimentoAplicativosIos}
                   alt4="imagem 4"
 
-                  titulo5="Curso do gustavo guanabara"
+                  titulo5="Curso do CursosAndroid"
                   src5={cursoDeDesenvolvimentoAplicativosIos}
                   alt5="imagem 5"
 
-                  titulo6="Curso do gustavo guanabara"
+                  titulo6="Curso do CursosAndroid"
                   src6={cursoDeDesenvolvimentoAplicativosIos}
                   alt6="imagem 6"
                   />
