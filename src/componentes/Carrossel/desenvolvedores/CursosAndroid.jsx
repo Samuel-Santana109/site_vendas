@@ -15,8 +15,6 @@ export function CursosAndroid() {
 
                   tituloCurso="Curso android"
 
-                  button="teste"
-
                   titulo1="Curso do CursosAndroid"
                   src1={cursoDeDesenvolvimentoAplicativosIos}
                   alt1="imagem 1"

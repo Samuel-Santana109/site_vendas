@@ -8,25 +8,26 @@ export function CursosWeb(){
             <CarrosselComBotao
 
                 tituloCurso="Cursos Web"
-                title="Curso Web"
+                
+                titulo="Curso Web"
                 src={ImagemCurso}
 
-                title2="Curso Web"
+                titulo2="Curso Web"
                 src2={ImagemCurso}
 
-                title3="Curso Web"
+                titulo3="Curso Web"
                 src3={ImagemCurso}
 
-                title4="Curso Web"
+                titulo4="Curso Web"
                 src4={ImagemCurso}
 
-                title5="Curso Web"
+                titulo5="Curso Web"
                 src5={ImagemCurso}
 
-                title6="Curso Web"
+                titulo6="Curso Web"
                 src6={ImagemCurso}
 
-                title7="Curso Web"
+                titulo7="Curso Web"
                 src7={ImagemCurso}
             />
 
