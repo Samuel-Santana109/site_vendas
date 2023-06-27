@@ -16,33 +16,32 @@ function Header(){
     return(
         <header className={Style.header}>
 
-            <div className={Style.subMenuUm}>
-
-                <div className={Style.divImgInput}>
-                    <img src="https://e1.pxfuel.com/desktop-wallpaper/181/658/desktop-wallpaper-future-and-technology-blue-hologram-backgrounds-with-world-map-1835259-vector-art-at-vecteezy-tech-world-logo-thumbnail.jpg"
+          
+                <div className={Style.divImgTxt}>
+                    <img
+                    src="https://e1.pxfuel.com/desktop-wallpaper/181/658/desktop-wallpaper-future-and-technology-blue-hologram-backgrounds-with-world-map-1835259-vector-art-at-vecteezy-tech-world-logo-thumbnail.jpg"
                     alt="Logo da casaPark"
-                    className={Style.img} />
+                    className={Style.img}
+                    />
                     
+                    <h3>Sobre a empresa</h3>
+                    <h3>Login</h3>
+                    <h3>Inscreva-se</h3>
+                </div>
+
+                <div className={Style.divInput}>
                     <input
                     className={Style.input}
                     placeholder="O que voce esta procurando"
                     aria-label="Example text with button addon"
                     aria-describedby="basic-addon1"
                     addonBefore={<RiSearchLine />}
-                        />
-               
-                </div>
-
-                <div className={Style.divEscritos}>
-                    <h3>Sobre a empresa</h3>
-                    <h3>Login</h3>
-                    <h3>Inscreva-se</h3>
-                </div>
-            </div>
-
-          
+                    />
+                </div>    
+           
             <div className={Style.divLista}>
                 <ul className={Style.menu}>
+                    
                     <li> Cusos para desenvolvedores</li>
                     <li> | Markenting Digitial</li>
                     <li> | Vendas </li>

@@ -1,5 +1,5 @@
 export function Footer(){
     <div>
-        <h1>Fiiter</h1>
+        <h1>foooter</h1>
     </div>
 }

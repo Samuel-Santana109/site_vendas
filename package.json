@@ -1,6 +1,6 @@
 {
   "name": "site_vendas",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://github.com/Samuel-Santana109/site_vendas",
   "type": "module",
