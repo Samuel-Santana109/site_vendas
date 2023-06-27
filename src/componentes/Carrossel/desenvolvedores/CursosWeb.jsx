@@ -1,11 +1,13 @@
-import { CarrosselDois } from "../CarrosselDois"
+import { CarrosselComBotao } from "../CarrosselComBotao"
 import ImagemCurso from "../../../../public/cursosImagens/desenvolvimentoWeb.png"
 
 
 export function CursosWeb(){
     return(
         <div >
-            <CarrosselDois
+            <CarrosselComBotao
+
+                tituloCurso="Cursos Web"
                 title="Curso Web"
                 src={ImagemCurso}
 
@@ -21,6 +23,11 @@ export function CursosWeb(){
                 title5="Curso Web"
                 src5={ImagemCurso}
 
+                title6="Curso Web"
+                src6={ImagemCurso}
+
+                title7="Curso Web"
+                src7={ImagemCurso}
             />
 
             

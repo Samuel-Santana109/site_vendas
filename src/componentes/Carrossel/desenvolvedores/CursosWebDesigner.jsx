@@ -1,15 +1,14 @@
-import { CarrosselProps } from "../CarrosselProps"
+import { CarrosselComBotao } from "../CarrosselComBotao"
 
 import Curso_web_designer from '../../../../public/cursosImagens/web_designer.png'
 
 export function CursosWebDesigner(){
     return(
         <div>
+                <CarrosselComBotao
 
-            <h1>Cursos para desenovimento web designer</h1>
-            
-            <div>
-                <CarrosselProps
+                tituloCurso="Cursos para desenovimento web designer"
+
                 titulo1="Curso de desenvolvimento web designer"
                 src1={Curso_web_designer}
                 alt1="Imagem de curso de desenvolvimento web"
@@ -33,9 +32,8 @@ export function CursosWebDesigner(){
                 titulo6="Curso de desenvolvimento web designer"
                 src6={Curso_web_designer}
                 alt6="Imagem de curso de web_designer"
-
                  />
-            </div>
+        
         </div>
     )
 }

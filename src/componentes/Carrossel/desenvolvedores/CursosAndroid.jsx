@@ -1,7 +1,9 @@
 import React from 'react'
-import { CarrosselTres } from '../CarrosselTres'
+import { CarrosselSemBotao } from '../CarrosselSemBotao'
 
 import cursoDeDesenvolvimentoAplicativosIos from "../../../../public/cursosImagens/cursoDeDesenvolvimentoAplicativosIos.png"
+
+//Nesse arquivo eu so passo os valores a estrutura em si esta no arquivo carrossel 3
 
 
 //Carrossel para desemvolvedores
@@ -9,10 +11,12 @@ export function CursosAndroid() {
  
       return(
         <div>
-          <div>
-            <h1>Cursos para desenovimento Ios</h1>
-           
-            <CarrosselTres  
+            <CarrosselSemBotao  
+
+                  tituloCurso="Curso android"
+
+                  button="teste"
+
                   titulo1="Curso do CursosAndroid"
                   src1={cursoDeDesenvolvimentoAplicativosIos}
                   alt1="imagem 1"
@@ -37,7 +41,6 @@ export function CursosAndroid() {
                   src6={cursoDeDesenvolvimentoAplicativosIos}
                   alt6="imagem 6"
                   />
-          </div>
   
        </div>
       )

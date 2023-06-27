@@ -1,5 +1,5 @@
 import React from 'react'
-import { CarrosselTres } from '../CarrosselTres'
+import { CarrosselSemBotao } from '../CarrosselSemBotao'
 
 import cursoDeDesenvolvimentoAplicativosIos from "../../../../public/cursosImagens/cursoDeDesenvolvimentoAplicativosIos.png"
 
@@ -10,9 +10,9 @@ export function CursosIos() {
       return(
         <div>
           <div>
-            <h1>Cursos para desenovimento Ios</h1>
+            <h1>Cursos para desenvovimento Ios</h1>
            
-            <CarrosselTres  
+            <CarrosselSemBotao  
                   titulo1="Curso do gustavo guanabara"
                   src1={cursoDeDesenvolvimentoAplicativosIos}
                   alt1="imagem 1"

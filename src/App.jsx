@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './componentes/Header/Header'
-import { PaginaDevs } from './componentes/pages/desenvolvedores/PaginaDevs';
+import { PaginaDevs } from './pages/desenvolvedores/PaginaDevs';
 import { Footer } from './componentes/footer/footer';
 
 
