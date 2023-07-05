@@ -1,62 +1,69 @@
-import React from "react";
-import Style from "./header.module.css"
-
-//Formulario
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-//Imagens
-import ImagemLogo from '../../../public/imagens/techWorld.png'
-
-//Icones
-import { RiSearchLine } from 'react-icons/ri';
-
-function Header(){
-    return(
-        <header className={Style.header}>
-
-          
-                <div className={Style.divImgTxt}>
-                    <img
-                    src="https://e1.pxfuel.com/desktop-wallpaper/181/658/desktop-wallpaper-future-and-technology-blue-hologram-backgrounds-with-world-map-1835259-vector-art-at-vecteezy-tech-world-logo-thumbnail.jpg"
-                    alt="Logo da casaPark"
-                    className={Style.img}
-                    />
-                    
-                    <h3>Sobre a empresa</h3>
-                    <h3>Login</h3>
-                    <h3>Inscreva-se</h3>
-                </div>
-
-                <div className={Style.divInput}>
-                    <input
-                    className={Style.input}
-                    placeholder="O que voce esta procurando"
-                    aria-label="Example text with button addon"
-                    aria-describedby="basic-addon1"
-                    addonBefore={<RiSearchLine />}
-                    />
-                </div>    
-           
-            <div className={Style.divLista}>
-                <ul className={Style.menu}>
-                    
-                    <li> Cusos para desenvolvedores</li>
-                    <li> | Markenting Digitial</li>
-                    <li> | Vendas </li>
-                    <li> | Ingles</li>
-                    <li> | Afiliados e Plr</li>
-                    <li> | Dropshipp</li>
-                    <li> | Produtos de tecnologia</li>
-                </ul>
-            </div>
-        </header>
-    )   
+function Header() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container fluid>
+        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action2">Link</Nav.Link>
+            <NavDropdown title="Link" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">
+                Something else here
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#" disabled>
+              Link
+            </Nav.Link>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Header
+export default Header;
 
-//Pegando como base o header desse link
 
-//https://www.alura.com.br/formacoes?gclid=CjwKCAiAuaKfBhBtEiwAht6H7-__ba__g4jP0ZLI_goMWA_N-QX1yOew_JS43BthSFnjpmcjew7XJBoC188QAvD_BwE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

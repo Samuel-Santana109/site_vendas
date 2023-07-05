@@ -10,7 +10,7 @@ import { Footer } from './componentes/footer/footer';
 
 import './global.css'
 
-function App() {
+function App() { 
 
   return (
     <div>
