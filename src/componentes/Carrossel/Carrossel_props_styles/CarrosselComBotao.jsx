@@ -24,28 +24,29 @@ export function CarrosselComBotao(props) {
     ];
   
     return (
-      <div class="carousel_container">
-        <h1 class="tituloCurso">{props.tituloCurso}</h1>
-  
-        <div class='carousel'>
+      <>
+         <h1 class="tituloCurso">{props.tituloCurso}</h1>
+        <div class="carousel_container">
+          <div class='carousel'>
 
-          {items.map((item, index) => (
-            <div key={index} class="carousel_item">
-              <h4>{item.titulo}</h4>
-              <a href={item.link}>
-                <img src={item.src} alt={item.alt} class="img" />
-              </a>
-            </div>
-          ))}
+            {items.map((item, index) => (
+              <div key={index} class="carousel_item">
+                <h4>{item.titulo}</h4>
+                <a href={item.link}>
+                  <img src={item.src} alt={item.alt} class="img" />
+                </a>
+              </div>
+            ))}
 
+          </div>
+
+          <div class="divBotoes">
+              <button class="button" onClick={FunçaoLadoEsquerdo}><BsChevronLeft /></button>
+              <button class="button" onClick={FunçaLadoDireito}><BsChevronRight /></button>
+          </div>
         </div>
+      </>
 
-        <div class="divBotoes">
-            <button class="button" onClick={FunçaoLadoEsquerdo}><BsChevronLeft /></button>
-            <button class="button" onClick={FunçaLadoDireito}><BsChevronRight /></button>
-        </div>
-
-      </div>
     );
   }
   

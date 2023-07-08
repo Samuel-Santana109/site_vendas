@@ -2,7 +2,18 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box
   }
   
 
+body, input, textarea, button { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }  
+
+body {
+      margin: auto;
+      text-align: center;
+   }
+   

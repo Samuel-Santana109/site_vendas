@@ -13,10 +13,10 @@ export function CarrosselSemBotao(props){
 
 
     return(
-        <div class="carousel_container">
-
-                <h1 class="tituloCurso">{props.tituloCurso}</h1>
-            <div class='carousel'>
+        <>       
+             <h1 class="tituloCurso">{props.tituloCurso}</h1>
+            <div class="carousel_container">
+                <div class='carousel'>
 
                     {items.map((item, index) => (
                         <div key={index} class="carousel_item">
@@ -27,9 +27,9 @@ export function CarrosselSemBotao(props){
                         </div>
                     ))}
 
+                </div>
+
              </div>
-
-        </div>
-
+        </> 
     )
 }

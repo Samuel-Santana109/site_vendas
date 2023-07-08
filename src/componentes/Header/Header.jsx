@@ -1,3 +1,4 @@
+//Bootstrap
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -8,14 +9,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 //Imagens
 import Image from 'react-bootstrap/Image';
 
+//Css
+import './Header.scss'
 
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+    <Navbar expand="lg" className=" text-white">
+      <Container fluid class="text-white">
 
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#" >
               <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt='Logo' roundedCircle />
         </Navbar.Brand>
 
@@ -23,8 +26,7 @@ function Header() {
 
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            className="me-auto my-2 my-lg-0  navBar"
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>

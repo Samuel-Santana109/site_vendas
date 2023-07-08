@@ -1,9 +1,9 @@
 import React from 'react';
-import './style/App.scss'
+import './style/App.scss';
 
 import Header from './componentes/Header/Header'
+import  Footer  from './componentes/footer/Footer';
 import { PaginaDevs } from './pages/desenvolvedores/PaginaDevs';
-import { Footer } from './componentes/footer/footer';
 
 
 
