@@ -1,7 +1,6 @@
-import React from 'react'
-import { CarrosselSemBotao } from '../CarrosselSemBotao'
+import { CarrosselSemBotao } from "../../../Carrossel_props_styles/CarrosselSemBotao";
 
-import cursoDeDesenvolvimentoAplicativosIos from "../../../../public/cursosImagens/cursoDeDesenvolvimentoAplicativosIos.png"
+import cursoDeDesenvolvimentoAplicativosIos from "../../../Imagens/cursosImagens/cursoDeDesenvolvimentoAplicativosIos.png"
 
 //Nesse arquivo eu so passo os valores a estrutura em si esta no arquivo carrossel 3
 

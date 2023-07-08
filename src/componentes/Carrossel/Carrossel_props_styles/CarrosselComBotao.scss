@@ -1,20 +1,8 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 .tituloCurso{
   margin: 1rem;
 }
 
-.img {
-  /*width: 18rem;
-  height: auto;
-  max-height: 100%;*/
-  width: 299px;
-  height: 168px;
-}
 
 
 .carousel_container {
@@ -39,6 +27,15 @@
   flex: 1 1 100%;
 }
 
+.img {
+  /*width: 18rem;
+  height: auto;
+  max-height: 100%;*/
+  width: 299px;
+  height: 168px;
+}
+
+
 .divBotoes{
   margin-top: 2rem;
   display: flex;
@@ -61,16 +58,9 @@
 }
 
 
-
-
-/*
-//Quando passa o mouse por cima ele gira automaticamente
-.carousel_container:hover .carousel {
-  transform: translateX(-100%);
+/* Media queries */
+@media (max-width:600px) {
+.carousel_item {
+    flex-basis: calc(100% - (3rem *2));
 }
-
-//Espa
-.carousel_container:hover .carousel-item:first-child {
-  margin-left: 100%;
 }
-*/

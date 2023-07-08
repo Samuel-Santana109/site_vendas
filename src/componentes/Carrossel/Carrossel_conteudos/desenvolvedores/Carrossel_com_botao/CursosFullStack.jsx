@@ -1,8 +1,8 @@
-import { CarrosselComBotao } from "../CarrosselComBotao"
-import ImagemCurso from "../../../../public/cursosImagens/desenvolvimentoWeb.png"
+import { CarrosselComBotao } from "../../../Carrossel_props_styles/CarrosselComBotao";
+import ImagemCurso from "../../../Imagens/cursosImagens/desenvolvimentoWeb.png"
 
 
-export function CursosWeb(){
+export function CursosFullStack(){
     return(
         <div >
             <CarrosselComBotao

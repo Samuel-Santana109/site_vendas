@@ -1,5 +1,4 @@
-import { CarrosselSemBotao } from "../CarrosselSemBotao";
-
+import { CarrosselSemBotao } from "../../../Carrossel_props_styles/CarrosselSemBotao";
 
 export function FrontEnd(){
     return(

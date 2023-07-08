@@ -1,20 +1,24 @@
 import React from 'react'
-import Style from './PaginaDevs.module.css'
+import './PaginaDevs.scss'
 
 //import { Textos } from './textos e imagens/textos'
-import { CursosIos } from '../../componentes/Carrossel/desenvolvedores/CursosIos'
-import { CursosWeb } from '../../componentes/Carrossel/desenvolvedores/CursosWeb'
-import { CursosWebDesigner } from '../../componentes/Carrossel/desenvolvedores/CursosWebDesigner'
-import { CursosAndroid } from '../../componentes/Carrossel/desenvolvedores/CursosAndroid'
-import { FrontEnd } from '../../componentes/Carrossel/desenvolvedores/CursosFrontEnd'
-import { CursosBancoDeDados } from '../../componentes/Carrossel/desenvolvedores/CursosBancoDeDados'
-import { CursosBackEnd } from '../../componentes/Carrossel/desenvolvedores/CursosBackEnd'
+
+//Carrossel com botao
+import { CursosBancoDeDados } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_com_botao/CursosBancoDeDados'
+import { CursosFullStack } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_com_botao/CursosFullStack'
+import { CursosWebDesigner } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_com_botao/CursosWebDesigner'
+
+//Carrossel sem botao
+import { CursosIos } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_sem_botao/CursosIos'
+import { CursosAndroid } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_sem_botao/CursosAndroid'
+import { FrontEnd } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_sem_botao/CursosFrontEnd'
+import { CursosBackEnd } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_sem_botao/CursosBackEnd'
 
 //Carrossel para desemvolvedores
 export function PaginaDevs() {
  
       return(
-        <div className={Style.div}>
+        <div class="div">
           <div>
             <CursosIos />
           </div>
@@ -24,7 +28,7 @@ export function PaginaDevs() {
           </div>
           <hr></hr>
           <div >
-            <CursosWeb />
+            <CursosFullStack />
           </div>
           <hr></hr>
           <div>

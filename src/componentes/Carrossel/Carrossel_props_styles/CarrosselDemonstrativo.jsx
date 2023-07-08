@@ -1,4 +1,4 @@
-import Style from './style_carrossel/CarrosselDemonstrativo.module.css';
+import Style from './CarrosselDemonstrativo.scss';
 
 export function CarrosselDemonstrativo(props){
 

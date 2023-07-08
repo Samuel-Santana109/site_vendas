@@ -1,7 +1,4 @@
-import React from 'react'
-import { CarrosselSemBotao } from '../CarrosselSemBotao'
-
-import cursoDeDesenvolvimentoAplicativosIos from "../../../../public/cursosImagens/cursoDeDesenvolvimentoAplicativosIos.png"
+import { CarrosselSemBotao } from "../../../Carrossel_props_styles/CarrosselSemBotao";
 
 
 //Carrossel para desemvolvedores
@@ -14,27 +11,27 @@ export function CursosIos() {
            
             <CarrosselSemBotao  
                   titulo1="Curso do gustavo guanabara"
-                  src1={cursoDeDesenvolvimentoAplicativosIos}
+                  src1='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt1="imagem 1"
 
                   titulo2="Curso do gusavo guanabara"
-                  src2={cursoDeDesenvolvimentoAplicativosIos}
+                  src2='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt2="imagem 2"
 
                   titulo3="Curso do gustavo guanabara"
-                  src3={cursoDeDesenvolvimentoAplicativosIos}
+                  src3='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt3="imagem 3"
 
                   titulo4="Curso do gustavo guanabara"
-                  src4={cursoDeDesenvolvimentoAplicativosIos}
+                  src4='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt4="imagem 4"
 
                   titulo5="Curso do gustavo guanabara"
-                  src5={cursoDeDesenvolvimentoAplicativosIos}
+                  src5='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt5="imagem 5"
 
                   titulo6="Curso do gustavo guanabara"
-                  src6={cursoDeDesenvolvimentoAplicativosIos}
+                  src6='https://cdn.pixabay.com/photo/2015/10/09/09/16/binary-978951_1280.jpg'
                   alt6="imagem 6"
                   />
           </div>

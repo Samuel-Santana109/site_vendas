@@ -22,6 +22,18 @@
     margin-right: 10px;
   }
 
+  //Quando passa o mouse por cima ele gira automaticamente
+.carousel_container:hover .carousel {
+  transform: translateX(-100%);
+}
+
+//Espa
+.carousel_container:hover .carousel-item:first-child {
+  margin-left: 100%;
+}
+
+
+
 
   @keyframes carousel-animation {
     0% {
