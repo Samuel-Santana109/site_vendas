@@ -1,3 +1,6 @@
+//Rotas
+import { Link } from 'react-router-dom';
+
 //Bootstrap
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -15,56 +18,44 @@ import './Header.scss'
 
 function Header() {
   return (
-    <Navbar expand="lg" className=" text-white">
-      <Container fluid class="text-white">
+    <Navbar expand="lg" className="text-white">
+    <Container fluid className="text-white">
+      <Navbar.Brand as={Link} to="/">
+        <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt="Logo" roundedCircle />
+      </Navbar.Brand>
 
-        <Navbar.Brand href="#" >
-              <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt='Logo' roundedCircle />
-        </Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarScroll" />
 
-        <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav className="me-auto my-2 my-lg-0 navBar" navbarScroll>
+          <Nav.Link as={Link} to="/Home">Home</Nav.Link>
+          <Nav.Link href="#">Increva-se</Nav.Link>
 
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0  navBar"
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Increva-se</Nav.Link>
+          <NavDropdown title="Paginas" id="navbarScrollingDropdown">
+            <NavDropdown.Item href="#action3">Desenvolvimento de Sites | App | jogos</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Inglês| Francês| Espanhol| japonês | chinês</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">Markenting digital | Afiliado | Vendas | PLR</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action">Investimentos curto | médio | longo prazo | trader</NavDropdown.Item>
+          </NavDropdown>
 
-            <NavDropdown title="Paginas" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cursos para desenvolvedores web e app</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                    Cursos de Vendas e Persuasao
-              </NavDropdown.Item>
+          <Nav.Link href="#" disabled>
+            Contato
+          </Nav.Link>
+        </Nav>
 
-              <NavDropdown.Item href="#action5">
-                    Cursos de Marketing Digital e Afiliados
-              </NavDropdown.Item>
-
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action">
-                    Cursos para Traders
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <Nav.Link href="#" disabled>
-                Contato
-            </Nav.Link>
-          </Nav>
-          
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <Form className="d-flex">
+          <Form.Control
+            type="search"
+            placeholder="Search"
+            className="me-2"
+            aria-label="Search"
+          />
+          <Button variant="outline-success">Search</Button>
+        </Form>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
   );
 }
 

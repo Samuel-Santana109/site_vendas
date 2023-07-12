@@ -39,14 +39,13 @@ export function CarrosselComBotao(props) {
             ))}
 
           </div>
-
-          <div class="divBotoes">
+        </div>
+        
+        <div class="divBotoes">
               <button class="button" onClick={FunçaoLadoEsquerdo}><BsChevronLeft /></button>
               <button class="button" onClick={FunçaLadoDireito}><BsChevronRight /></button>
           </div>
-        </div>
       </>
-
     );
   }
   

@@ -9,8 +9,8 @@ function Footer() {
       <Container>
         <Row>
           <Col>
-            <h5>Seu Logo</h5>
-            <p>Informações sobre sua empresa</p>
+            <h5>Tech World</h5>
+            <p>Somos uma empresa onde vendemos produtos,cursos e muitas outros produtos para o crescimento do cliente e temos inumeras parcerias nos te fornecemos tudo com a melhor qualidade</p>
           </Col>
           <Col>
             <h5>Links</h5>
@@ -23,8 +23,8 @@ function Footer() {
           </Col>
           <Col>
             <h5>Contato</h5>
-            <p>Endereço da sua empresa</p>
-            <p>Email: info@empresa.com</p>
+            <p>Estamos Totalmente Online</p>
+            <p>Email: techWorld@gmail.com</p>
             <p>Telefone: (61) 9 9107-6831</p>
           </Col>
         </Row>

@@ -46,6 +46,7 @@ export function PaginaDevs() {
           <div>
             <CursosBancoDeDados />
           </div>
+          <hr></hr>
        </div>
       )
   }
