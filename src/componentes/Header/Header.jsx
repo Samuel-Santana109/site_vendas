@@ -1,5 +1,5 @@
 //Rotas
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 //Bootstrap
 import Button from 'react-bootstrap/Button';
@@ -20,7 +20,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="text-white">
     <Container fluid className="text-white">
-      <Navbar.Brand as={Link} to="/">
+      <Navbar.Brand href="#" >
         <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt="Logo" roundedCircle />
       </Navbar.Brand>
 
@@ -28,7 +28,7 @@ function Header() {
 
       <Navbar.Collapse id="navbarScroll">
         <Nav className="me-auto my-2 my-lg-0 navBar" navbarScroll>
-          <Nav.Link as={Link} to="/Home">Home</Nav.Link>
+        <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#">Increva-se</Nav.Link>
 
           <NavDropdown title="Paginas" id="navbarScrollingDropdown">
@@ -40,7 +40,7 @@ function Header() {
           </NavDropdown>
 
           <Nav.Link href="#" disabled>
-            Contato
+              Contato
           </Nav.Link>
         </Nav>
 

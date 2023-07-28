@@ -14,15 +14,15 @@ export function CarrosselSemBotao(props){
 
     return(
         <>       
-             <h1 class="tituloCurso">{props.tituloCurso}</h1>
-            <div class="carousel_container">
-                <div class='carousel'>
+             <h1 className="tituloCurso">{props.tituloCurso}</h1>
+            <div className="carousel_container">
+                <div className='carousel'>
 
                     {items.map((item, index) => (
-                        <div key={index} class="carousel_item">
+                        <div key={index} className="carousel_item">
                             <h4>{item.titulo}</h4>
                             <a href={item.link}>
-                                <img src={item.src} alt={item.alt} class="img" />
+                                <img src={item.src} alt={item.alt} className="img" />
                             </a>
                         </div>
                     ))}

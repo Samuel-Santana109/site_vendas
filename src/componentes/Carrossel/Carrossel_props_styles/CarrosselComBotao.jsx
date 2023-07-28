@@ -1,10 +1,10 @@
 import './CarrosselComBotao.scss';
 
-import { useRef } from 'react';
+//import { useRef } from 'react';
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export function CarrosselComBotao(props) {
-    const carrosselRef = useRef(null);
+    //const carrosselRef = useRef(null);
   
     function FunçaoLadoEsquerdo() {
       carrosselRef.current.scrollLeft -= carrosselRef.current.offsetWidth;
@@ -25,15 +25,15 @@ export function CarrosselComBotao(props) {
   
     return (
       <>
-         <h1 class="tituloCurso">{props.tituloCurso}</h1>
-        <div class="carousel_container">
-          <div class='carousel'>
+         <h1 className="tituloCurso">{props.tituloCurso}</h1>
+        <div className="carousel_container">
+          <div className='carousel'>
 
             {items.map((item, index) => (
-              <div key={index} class="carousel_item">
+              <div key={index} className="carousel_item">
                 <h4>{item.titulo}</h4>
                 <a href={item.link}>
-                  <img src={item.src} alt={item.alt} class="img" />
+                  <img src={item.src} alt={item.alt} className="img" />
                 </a>
               </div>
             ))}
@@ -41,11 +41,11 @@ export function CarrosselComBotao(props) {
           </div>
         </div>
         
-        <div class="divBotoes">
-              <button class="button" onClick={FunçaoLadoEsquerdo}><BsChevronLeft /></button>
-              <button class="button" onClick={FunçaLadoDireito}><BsChevronRight /></button>
+        <div className="divBotoes">
+              <button className="button" onClick={FunçaoLadoEsquerdo}><BsChevronLeft /></button>
+              <button className="button" onClick={FunçaLadoDireito}><BsChevronRight /></button>
           </div>
-      </>
+     </>
     );
   }
   

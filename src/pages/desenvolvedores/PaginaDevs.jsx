@@ -1,8 +1,6 @@
 import React from 'react'
 import './PaginaDevs.scss'
 
-//import { Textos } from './textos e imagens/textos'
-
 //Carrossel com botao
 import { CursosBancoDeDados } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_com_botao/CursosBancoDeDados'
 import { CursosFullStack } from '../../componentes/Carrossel/Carrossel_conteudos/desenvolvedores/Carrossel_com_botao/CursosFullStack'
@@ -16,9 +14,8 @@ import { CursosBackEnd } from '../../componentes/Carrossel/Carrossel_conteudos/d
 
 //Carrossel para desemvolvedores
 export function PaginaDevs() {
- 
       return(
-        <div class="div">
+        <div className="div">
           <div>
             <CursosIos />
           </div>
