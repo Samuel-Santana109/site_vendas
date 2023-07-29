@@ -19,6 +19,7 @@ import './Header.scss'
 function Header() {
   return (
     <Navbar expand="lg" className="text-white">
+      
     <Container fluid className="text-white">
       <Navbar.Brand href="#" >
         <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt="Logo" roundedCircle />
@@ -29,7 +30,7 @@ function Header() {
       <Navbar.Collapse id="navbarScroll">
         <Nav className="me-auto my-2 my-lg-0 navBar" navbarScroll>
         <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#">Increva-se</Nav.Link>
+          <Nav.Link href="#">Login</Nav.Link>
 
           <NavDropdown title="Paginas" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Desenvolvimento de Sites | App | jogos</NavDropdown.Item>
