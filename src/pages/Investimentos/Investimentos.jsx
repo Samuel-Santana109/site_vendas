@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 
 //Carrossel com botao
 import {InvestimentosLongo} from '../../componentes/Carrossel/Carrossel_conteudos/Investimentos/Carrossel_com_botao/InvestimentosLongo'
@@ -13,7 +13,7 @@ import {Traders} from '../../componentes/Carrossel/Carrossel_conteudos/Investime
 export function Investimentos(){
     return(
       <div>
-          <h1>testessssss</h1>
+          <h1></h1>
           <InvestimentosLongo />
           <hr></hr>
           <InvestimentosCurto />
