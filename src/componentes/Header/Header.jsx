@@ -29,15 +29,15 @@ function Header() {
 
       <Navbar.Collapse id="navbarScroll">
         <Nav className="me-auto my-2 my-lg-0 navBar" navbarScroll>
-        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="http://localhost:5175/site_vendas/Home">Home</Nav.Link>
           <Nav.Link href="#">Login</Nav.Link>
 
           <NavDropdown title="Paginas" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">Desenvolvimento de Sites | App | jogos</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Inglês| Francês| Espanhol| japonês | chinês</NavDropdown.Item>
-            <NavDropdown.Item href="#action5">Markenting digital | Afiliado | Vendas | PLR</NavDropdown.Item>
+            <NavDropdown.Item href="http://localhost:5175/site_vendas/PaginaDevs">Cursos de desevolvimento</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Cursos de Linguas</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">Cursos Intert</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action">Investimentos curto | médio | longo prazo | trader</NavDropdown.Item>
+            <NavDropdown.Item href="http://localhost:5175/site_vendas/Investimentos">Cursos de Investimentos</NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="#" disabled>

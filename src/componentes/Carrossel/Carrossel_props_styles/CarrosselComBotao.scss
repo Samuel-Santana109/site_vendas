@@ -1,21 +1,19 @@
-
 .tituloCurso{
   margin: 1rem;
 }
-
-
 
 .carousel_container {
   width: 100%;
   /*Aqui controla a barra de navegaçao*/
   overflow: auto;
+ 
 }
 
 .carousel {
   margin: 1rem;
   width: 100%;
   
-    /*Aqui controla a barra de navegaçao*/
+  /*Aqui controla a barra de navegaçao*/
   transition: transform 0.3s ease-in-out;
 
   display: flex;
@@ -35,7 +33,6 @@
   height: 168px;
 }
 
-
 .divBotoes{
   margin-top: 2rem;
   display: flex;
@@ -46,17 +43,17 @@
   display: inline-block;
   padding: .7rem;
   border-radius: 30px;
+
   background-color: #ccc;
   color: black;
+
   text-decoration: none;
   text-align: center;
 }
 
-
 .button:hover {
   background-color: #999;
 }
-
 
 /* Media queries */
 @media (max-width:600px) {
