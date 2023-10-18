@@ -5,10 +5,10 @@ import Header from "./componentes/Header/Header";
 import { Home } from './pages/Home/Home';
 import { PaginaDevs } from './pages/desenvolvedores/PaginaDevs';
 import { Investimentos } from './pages/Investimentos/Investimentos';
-import Footer from './componentes/footer/Footer';
+
 
 // Define um componente chamado 'Routeamento'
-export function Routeamento() {
+ function Routeamento() {
   return (
     // Um container div para envolver todo o conteúdo do componente
     <div>
@@ -18,7 +18,7 @@ export function Routeamento() {
         {/* Componente 'Routes' para definir as rotas */}
         <Routes>
           {/* Define uma rota para o caminho raiz ('/') e renderiza o componente 'Home' */}
-          <Route exact path="/site_vendas/Home" element={<Home />} />
+          <Route path="/site_vendas/Home" element={<Home />} />
           
           {/* Define uma rota para o caminho '/PaginaDevs' e renderiza o componente 'PaginaDevs' */}
           <Route path="/site_vendas/PaginaDevs" element={<PaginaDevs />} />

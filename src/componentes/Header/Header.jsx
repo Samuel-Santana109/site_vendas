@@ -1,81 +1,28 @@
-//Rotas
-//import { Link } from 'react-router-dom';
-
-//Bootstrap
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
-//Imagens
-import Image from 'react-bootstrap/Image';
-
-//Css
-import './Header.scss'
+import { NavBar } from "../navBar/navBar";
+import Card from 'react-bootstrap/Card';
+import Img from '../../../public/imagens/fundos/fundoTecnologico.jpg'
+import '../../style/header.scss'
 
 
-function Header() {
-  return (
-    <Navbar expand="lg" className="text-white">
-      
-    <Container fluid className="text-white">
-      <Navbar.Brand href="#" >
-        <Image src="https://cdn-icons-png.flaticon.com/128/1829/1829892.png" alt="Logo" roundedCircle />
-      </Navbar.Brand>
+export function Header(){
+    return(
+        <header className="header">
+            <NavBar />
 
-      <Navbar.Toggle aria-controls="navbarScroll" />
+            <Card className="text-white">
+            <Card.Img src={Img} alt="Card image" />
 
-      <Navbar.Collapse id="navbarScroll">
-        <Nav className="me-auto my-2 my-lg-0 navBar" navbarScroll>
-        <Nav.Link href="http://localhost:5175/site_vendas/Home">Home</Nav.Link>
-          <Nav.Link href="#">Login</Nav.Link>
-
-          <NavDropdown title="Paginas" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="http://localhost:5175/site_vendas/PaginaDevs">Cursos de desevolvimento</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Cursos de Linguas</NavDropdown.Item>
-            <NavDropdown.Item href="#action5">Cursos Intert</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="http://localhost:5175/site_vendas/Investimentos">Cursos de Investimentos</NavDropdown.Item>
-          </NavDropdown>
-
-          <Nav.Link href="#" disabled>
-              Contato
-          </Nav.Link>
-        </Nav>
-
-        <Form className="d-flex">
-          <Form.Control
-            type="search"
-            placeholder="Search"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-success">Search</Button>
-        </Form>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
-  );
+            <Card.ImgOverlay>
+                <Card.Title className="display-1"> Tech World</Card.Title>
+                <Card.Text className="h-4">
+                Nossa empresa desenvolve criaçao e manutenção de Sites,Aplicativos,Chatbots e Planilhas
+                </Card.Text>
+                <Card.Text className="h-4">Estamos sempre em busca de evoluçao</Card.Text>
+                <Card.Text className="cantoInferior">Entre em contato para mais informaçoes</Card.Text>
+            </Card.ImgOverlay>
+            
+            </Card>
+ 
+        </header>
+    );
 }
-
-export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
