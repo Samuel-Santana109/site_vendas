@@ -1,6 +1,11 @@
 //import React from 'react';
 import { Header } from './componentes/Header/Header';
-import { SectionPerfil } from './componentes/sectionPerfil/sectionPerfil';
+import Footer from './componentes/footer/footer';
+import { SectionPerfil } from './secoes/sectionPerfil/sectionPerfil';
+import { SectionServicos } from './secoes/sectionServics/sectionServicos';
+import { SectionTextos } from './secoes/sectionTexto/sectionTexto';
+import { SectionTrabalho } from './secoes/sectionTrabalho/sectionTrabalho';
+
 import './style/App.scss';
 
 
@@ -10,7 +15,10 @@ function App() {
     <div className="App"> 
          <Header />
          <SectionPerfil />
-             
+         <SectionServicos />
+         <SectionTextos />    
+         <SectionTrabalho />     
+         <Footer />    
     </div>
   )
 }
