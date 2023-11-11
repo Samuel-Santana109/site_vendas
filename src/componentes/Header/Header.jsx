@@ -1,28 +1,29 @@
-import { NavBar } from "../navBar/navBar";
-import Card from 'react-bootstrap/Card';
-import Img from '../../../public/imagens/fundos/fundoTecnologico.jpg'
-import '../../style/header.scss'
-
+import { NavBar } from "../navBar/NavBar";
+import '../../style/header.scss';
 
 export function Header(){
     return(
-        <header className="header">
-            <NavBar />
+        <header className='header'>
+              
+            <div>
+                <NavBar />
+            </div>
+               
+            <div className="divh1">
+                <h1 className="h1"> Tech world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
 
-            <Card className="text-white">
-            <Card.Img src={Img} alt="Card image" />
-
-            <Card.ImgOverlay>
-                <Card.Title className="display-1"> Tech World</Card.Title>
-                <Card.Text className="h-4">
-                Nossa empresa desenvolve criaçao e manutenção de Sites,Aplicativos,Chatbots e Planilhas
-                </Card.Text>
-                <Card.Text className="h-4">Estamos sempre em busca de evoluçao</Card.Text>
-                <Card.Text className="cantoInferior">Entre em contato para mais informaçoes</Card.Text>
-            </Card.ImgOverlay>
+            <div className="divLista">
+                <ul className="Lista">
+                    <li>Aplicativos</li>
+                    <li>Sites</li>
+                    <li>ChatBot</li>
+                    <li>Planilhas</li>
+                </ul>
+            </div>
             
-            </Card>
- 
         </header>
     );
 }
+

@@ -1,18 +1,15 @@
 .SectionPerfil{
-    //background-color: rgb(128, 127, 127);
-    color: white;
-
     height: 100vh;
-    display: flex;
 }
 
 .imagem{
-    max-width: 100%;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 .button{
-    min-height: 5rem;
-    max-height: 8rem;
-    min-width: 10rem;
-    max-width: 20rem;
+    min-height: 2rem;
+    max-height: 6rem;
+    min-width: 7rem;
+    max-width: 12rem;
 }

@@ -1,16 +1,15 @@
-import Img from '../../../public/imagens/app.png'
 import '../../style/sectionServicos.scss'
 
 export function SectionServicos(){
     return(
-        <section className='SectionServicos text-center  d-flex flex-wrap align-items-center justify-content-center'>    
+        <section className='SectionServicos '>    
 
-            <div className="">
-                <h1>Nossos  <br></br> Serviços</h1>
-                <img src={Img} alt=".." className='imagem'/>
+            <div className="divTitulo">
+                <h1>Nossos Serviços</h1>
+            
             </div>
 
-            <div className="text-center">
+            <div className="divLista">
                 <div>
                     <h1>Sites</h1>
                     <p>Criamos e damos manutençao em sites</p>
