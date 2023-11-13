@@ -7,9 +7,9 @@ import { DivPerfil } from '../sectionPerfil/div.jsx'
 export function SectionPerfil(){
     return(
         <section className='SectionPerfil d-flex align-items-center justify-content-center'>
-            <div className="">
+            <div>
                 {/*Tamanho 6 em telas pequenas (xs) e 4 em médias (md)**/}
-                <Col className="m-auto" xs={20} md={8}>
+                <Col className="m-auto" xs={10} md={12}>
                     <Image src={Img} className='imagem' fluid />
                 </Col>
             </div>
@@ -22,10 +22,11 @@ export function SectionPerfil(){
                                 {/* Div com classe personalizada para estilizar a borda, centralizar o conteúdo e adicionar preenchimento */}
 
                                 <i className="fas fa-star fa-3x d-block my-3"> icone</i>
-                                <h1>Seu Título</h1> 
+                                <h1 className='tituloPrincipal'>Seu Título</h1> 
+
                                 <hr className="my-4" />
                                 {/* Linha horizontal (borda) com espaçamento */}
-                                <p>Seu parágrafo abaixo da borda.</p>
+                                <p className='textoPrincipal'>Seu parágrafo abaixo da borda.</p>
                                     <Button variant="outline-dark" className='button'>
                                     Fale conosco
                                     </Button>

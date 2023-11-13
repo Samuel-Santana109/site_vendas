@@ -1,41 +1,48 @@
 import '../../style/sectionTrabalho.scss'
-import img from  '../../../public/imagens/techWorld.png'
+import img from  '../../../public/imagens/logoTecnologico.png'
+import {Col, Image} from 'react-bootstrap'
 
 export function SectionQuemSomosNos(){
     return(
-        <section className='SectionTrabalho  m-auto d-flex justify-content-center align-items-center'>    
+        <section className='SectionTrabalho d-flex align-items-center justify-content-center'>    
 
-                <div className='divImagemTexto w-50'>
-                    <h1>Quem Somos Nós</h1>
-                    <img src={img} className="img-thumbnail " alt="..." />
+                <div className='divImagemTexto text-center'>
+                    <h1 className="tituloPrincipal">Quem Somos Nós</h1>
+                
+                    {/*Tamanho 6 em telas pequenas (xs) e 4 em médias (md)*/}
+                    <Col className="m-auto" xs={8} md={12}>
+                        <Image src={img} className='imagem' />
+                    </Col>
                 </div>
 
-                <div className='w-50 p-2'>
-                   <h1>Nos somos uma</h1>
-                   <p>A TechWorld  é uma referência no setor de desenvolvimento de software, proporcionando soluções digitais de alta qualidade para empresas de todos os tamanhos. Nosso compromisso é oferecer serviços personalizados e inovadores, impulsionando o crescimento e o sucesso de nossos clientes no ambiente digital.</p>
+                <div className='text-center p-4'>
+
+                    <div>
+                        <h1 className="tituloPrincipal">Somos uma Referência em Desenvolvimento de Software</h1>
+                        <p className="textoPrincipal">A TechWorld é líder no setor de desenvolvimento de software, proporcionando soluções digitais de alta qualidade para empresas de todos os tamanhos. Nosso compromisso é oferecer serviços personalizados e inovadores, impulsionando o crescimento e o sucesso de nossos clientes no ambiente digital.</p>
+                    </div>
+
+                    <div className='divTitulos d-flex'>
+                        <div>
+                        <h3 className="tituloSecundario">Sites</h3>
+                        <p className="textoPrincipal">Criamos e damos manutenção em sites</p>
+                        </div>
+                        <div>
+                        <h3 className="tituloSecundario">Aplicativos</h3>
+                        <p className="textoPrincipal">Criamos e damos manutenção em aplicativos</p>
+                        </div>
+                        <div>
+                        <h3 className="tituloSecundario">Chatbot</h3>
+                        <p className="textoPrincipal">Criamos e damos manutenção em automações de atendimento</p>
+                        </div>
+                        <div>
+                        <h3 className="tituloSecundario">Planilhas</h3>
+                        <p className="textoPrincipal">Criamos e damos manutenção em planilhas</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div className="divLista">
-                    <div>
-                        <h1>Sites</h1>
-                        <p>Criamos e damos manutençao em sites</p>
-                    </div>
-
-                    <div>
-                        <h1>Aplicativos</h1>
-                        <p>Criamos e damos manutençao em Aplicativos</p>
-                    </div>
-
-                    <div>
-                        <h1>Chatbot</h1>
-                        <p>Criamos e damos manutençao em automaçoes de atendimento</p>
-                    </div>
-
-                    <div>
-                        <h1>Planilhas</h1>
-                        <p>Criamos e damos manutençao em planilhas</p>
-                    </div>
-                </div>
 
         </section>
     );

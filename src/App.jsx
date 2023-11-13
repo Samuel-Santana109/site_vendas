@@ -4,7 +4,8 @@ import Footer from './componentes/footer/footer';
 import { SectionPerfil } from './secoes/sectionPerfil/sectionPerfil';
 import { SectionServicos } from './secoes/sectionServics/sectionServicos';
 import { SectionTextos } from './secoes/sectionTexto/sectionTexto';
-import { SectionQuemSomosNos } from './secoes/SectionQuemSomosNos/SectionQuemSomosNos';
+import { SectionQuemSomosNos } from './secoes/sectionQuemSomosNos/SectionQuemSomosNos';
+import { SectionParallax } from './secoes/sectionParallax/sectionParallax';
 
 import './style/App.scss';
 
@@ -16,7 +17,8 @@ function App() {
          <Header />
          <SectionPerfil />
          <SectionServicos />
-         <SectionTextos />    
+         <SectionTextos />  
+         <SectionParallax />  
          <SectionQuemSomosNos />     
          <Footer />    
     </div>

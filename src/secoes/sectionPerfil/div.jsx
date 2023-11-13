@@ -1,4 +1,5 @@
 import { Container, Row,Col } from 'react-bootstrap';
+import './DivPerfil.scss'
 
 export function DivPerfil(){
     return(
@@ -9,9 +10,9 @@ export function DivPerfil(){
                             {/* Ícone usando FontAwesome */}
                         
                             <i className="fas fa-star fa-3x d-block my-3"> icone</i>
-                            <h1>Seu Título</h1>
+                            <h1 className='tituloPrincipal'>Seu Título</h1>
                             <hr className="my-4" />
-                            <p>Seu parágrafo abaixo da borda.</p>
+                            <p className='textoPrincipal'   >Seu parágrafo abaixo da borda.</p>
                         </div>
                     </Col>
                 </Row>
@@ -21,9 +22,9 @@ export function DivPerfil(){
                             {/* Ícone usando FontAwesome */}
                         
                             <i className="fas fa-star fa-3x d-block my-3"> icone</i>
-                            <h1>Seu Título</h1>
+                            <h1 className='tituloPrincipal'>Seu Título</h1>
                             <hr className="my-4" />
-                            <p>Seu parágrafo abaixo da borda.</p>
+                            <p className='textoPrincipal'>Seu parágrafo abaixo da borda.</p>
                         </div>
                     </Col>
                 </Row>

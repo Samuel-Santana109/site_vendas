@@ -1,11 +1,37 @@
 .SectionTrabalho{
-    background-color: black;
-    color: aliceblue;
+    color: black;
     font-family:  sans-serif;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+
+  /* Adicione mais estilos conforme necessário */
+  
 .divImagemTexto{
     padding: 2rem;
+}
+
+.divTextos{
+    gap: 13rem;
+}
+
+.divTitulos{
+    margin-top: 6rem;
+ }
+
+ .QuemSomosNos{
+   color: red;
+ }
+
+@media screen and (max-width: 728px) {
+    .SectionTrabalho{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divTitulos{
+       display: flex;
+       flex-direction: column;
+     }
 }
 
