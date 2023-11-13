@@ -5,7 +5,7 @@
     background-size: cover;
 
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -17,13 +17,16 @@
     color: aliceblue;
 }
 
-.divLista{
-    padding: 2rem;
-
-    display: flex;
-    color: aliceblue;
-}
-
 .imagem{
     max-width: 100%;
+}
+
+@media screen and (max-width:728px) {
+    .SectionServicos{
+        background-position: center center;
+    }
+    
+    .divTitulo {
+        padding: 1rem; /* Reduz o espaçamento do título em telas menores */
+    }
 }

@@ -3,6 +3,7 @@
     background-size: auto;
     background-attachment: fixed;
     background-size: cover;
+    
     width: 100%;
     height: 100%;
     height: 100vh;
@@ -32,4 +33,19 @@
 
     display: flex;
     gap: 10rem;
+}
+
+/* Adicione uma regra de mídia para telas menores (tablets e smartphones) */
+@media only screen and (max-width: 768px) {
+    .header {
+        gap: 1rem; /* Reduz o espaço entre os elementos no cabeçalho */
+        background-position: center  ; /* Altera a posição da imagem para o topo */
+    }
+    
+
+    .Lista {
+         /* Altera a direção da lista para coluna em telas menores */
+
+        gap: 2rem; /* Reduz o espaço entre os itens da lista */
+    }
 }

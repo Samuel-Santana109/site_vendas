@@ -1,5 +1,6 @@
 .SectionPerfil{
-    height: 100vh;
+    min-height: 100vh;
+    margin: 1rem;
 }
 
 .imagem{
@@ -12,4 +13,12 @@
     max-height: 6rem;
     min-width: 7rem;
     max-width: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+    .SectionPerfil{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
