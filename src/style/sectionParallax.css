@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.sectionParallax {
+  background-image: url("../../../public/imagens/fundos/parallax.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.divTitulo {
+  padding: 3rem;
+  color: aliceblue;
+}
+
+.imagem {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 728px) {
+  .sectionParallax {
+    background-position: right top;
+  }
+  .divTitulo {
+    padding: 1rem; /* Reduz o espaçamento do título em telas menores */
+  }
+}/*# sourceMappingURL=sectionParallax.css.map */

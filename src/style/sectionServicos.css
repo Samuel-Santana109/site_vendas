@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.SectionServicos {
+  background-image: url("../../../public/imagens/fundos/fundoTecnologico.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.divTitulo {
+  padding: 3rem;
+  color: aliceblue;
+}
+
+.imagem {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 728px) {
+  .SectionServicos {
+    background-position: center center;
+  }
+  .divTitulo {
+    padding: 1rem; /* Reduz o espaçamento do título em telas menores */
+  }
+}/*# sourceMappingURL=sectionServicos.css.map */

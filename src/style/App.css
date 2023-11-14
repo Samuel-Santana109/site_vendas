@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.tituloPrincipal {
+  color: #333; /* Cor do texto */
+  font-size: 2em; /* Tamanho da fonte */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.tituloSecundario {
+  color: #333; /* Cor do texto */
+  font-size: 2em; /* Tamanho da fonte */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.textoPrincipal {
+  color: #666; /* Cor do texto */
+}
+
+.imagem {
+  max-width: 30rem;
+  max-height: 30rem;
+}/*# sourceMappingURL=App.css.map */

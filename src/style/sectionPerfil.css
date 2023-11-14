@@ -1,0 +1,18 @@
+.SectionPerfil {
+  min-height: 100vh;
+  margin: 1rem;
+}
+
+.button {
+  min-height: 2rem;
+  max-height: 6rem;
+  min-width: 7rem;
+  max-width: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+  .SectionPerfil {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=sectionPerfil.css.map */
