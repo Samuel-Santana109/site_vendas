@@ -2,7 +2,7 @@
   "name": "tech_world",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Samuel-Santana109/tech_world",
+  "homepage": "https://Samuel-Santana109.github.io/tech_world",
   "type": "module",
   "scripts": {
     "start": "vite",
