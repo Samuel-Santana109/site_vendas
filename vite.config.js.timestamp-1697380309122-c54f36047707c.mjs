@@ -1,9 +1,9 @@
 // vite.config.js
-import { defineConfig } from "file:///C:/Users/samue/OneDrive/Documentos/projetos-github/pessoal_site_vendas/node_modules/vite/dist/node/index.js";
-import react from "file:///C:/Users/samue/OneDrive/Documentos/projetos-github/pessoal_site_vendas/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import { defineConfig } from "file:///C:/Users/samue/OneDrive/Documentos/projetos-github/pessoal_site_techWorld/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/samue/OneDrive/Documentos/projetos-github/pessoal_site_techWorld/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()],
-  base: "/site_vendas"
+  base: "/tech_world"
 });
 export {
   vite_config_default as default
