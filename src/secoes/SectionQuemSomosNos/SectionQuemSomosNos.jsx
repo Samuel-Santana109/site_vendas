@@ -25,7 +25,7 @@ export function SectionQuemSomosNos(){
                     <div className='divTitulos d-flex'>
                         <div>
                         <h3 className="tituloSecundario">Sites</h3>
-                        <p className="textoPrincipal">Criamos e damos manutenção em sites</p>
+                        <p className="textoPrincipal">Criamos e oferecemos serviços de manutenção em sites</p>
                         </div>
                         <div>
                         <h3 className="tituloSecundario">Aplicativos</h3>
@@ -33,11 +33,11 @@ export function SectionQuemSomosNos(){
                         </div>
                         <div>
                         <h3 className="tituloSecundario">Chatbot</h3>
-                        <p className="textoPrincipal">Criamos e damos manutenção em automações de atendimento</p>
+                        <p className="textoPrincipal">Criamos e oferecemos serviços de manutenção em automações de atendimento</p>
                         </div>
                         <div>
                         <h3 className="tituloSecundario">Planilhas</h3>
-                        <p className="textoPrincipal">Criamos e damos manutenção em planilhas</p>
+                        <p className="textoPrincipal">Criamos e oferecemos serviços de manutenção em planilhas</p>
                         </div>
                     </div>
 
