@@ -16,3 +16,10 @@
     flex-direction: column;
   }
 }/*# sourceMappingURL=sectionPerfil.css.map */
+
+@media screen and (max-width: 768px){
+  .div.d-flex.container{
+    display: flex;
+    flex-direction: column;
+  }
+}
