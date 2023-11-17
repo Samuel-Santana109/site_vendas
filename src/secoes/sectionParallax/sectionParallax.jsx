@@ -5,7 +5,7 @@ export function SectionParallax(){
         <section className='sectionParallax '>    
 
             <div className="divTitulo">
-                <h1>Evoluimos nossos doftware</h1>
+                <h1>Evoluimos nossos softwares</h1>
             </div>
 
          
