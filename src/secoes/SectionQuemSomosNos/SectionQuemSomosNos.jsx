@@ -29,7 +29,7 @@ export function SectionQuemSomosNos(){
                         </div>
                         <div>
                         <h3 className="tituloSecundario">Aplicativos</h3>
-                        <p className="textoPrincipal">Criamos e damos manutenção em aplicativos</p>
+                        <p className="textoPrincipal">Criamos e oferecemos serviços de manutenção em aplicativos</p>
                         </div>
                         <div>
                         <h3 className="tituloSecundario">Chatbot</h3>
