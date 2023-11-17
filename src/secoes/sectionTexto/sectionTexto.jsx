@@ -5,7 +5,7 @@ export function SectionTextos(){
         <section className='SectionTextos p-2  text-center d-flex flex-wrap align-content-lg-center justify-content-center '>    
 
             <h1 className='textoPrincipal    pb-4'> 
-                Programação é a nossa paixão. Cuidaremos dela, para que você possa se concentrar nas suas.
+                Programação é a nossa paixão. Cuidaremos dela, para que você possa se concentrar na sua.
             </h1>
 
             <h1 className='tituloSecundario pb-4'>
