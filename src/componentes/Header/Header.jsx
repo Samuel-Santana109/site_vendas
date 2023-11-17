@@ -11,7 +11,7 @@ export function Header(){
                
             <div className="divh1">
                 <h1 className="h1"> Tech world</h1>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Inovando o seu Futuro</p>
             </div>
 
             <div className="divLista">
