@@ -19,3 +19,13 @@
 
     }
 }
+
+@media screen and (max-width: 768px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+

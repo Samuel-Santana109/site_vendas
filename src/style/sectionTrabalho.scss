@@ -35,3 +35,13 @@
      }
 }
 
+@media screen and (max-width: 425px) {
+  .m-auto{
+    width: 480px;
+    height: 480px;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center;
+  }
+}
+

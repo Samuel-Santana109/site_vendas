@@ -1,4 +1,4 @@
-import { NavBar } from "../navBar/NavBar";
+import { NavBar } from "../NavBar/NavBar";
 import '../../style/header.scss';
 
 export function Header(){
@@ -11,7 +11,7 @@ export function Header(){
                
             <div className="divh1">
                 <h1 className="h1"> Tech world</h1>
-                <p>Inovando o seu Futuro</p>
+                <p>Innovation and Creativity</p>
             </div>
 
             <div className="divLista">

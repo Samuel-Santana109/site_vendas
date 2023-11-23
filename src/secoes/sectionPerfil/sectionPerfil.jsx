@@ -8,6 +8,7 @@ export function SectionPerfil(){
     return(
         <section className='SectionPerfil d-flex align-items-center justify-content-center'>
             <div>
+                <div id='Home'></div>
                 {/*Tamanho 6 em telas pequenas (xs) e 4 em médias (md)**/}
                 <Col className="m-auto" xs={10} md={12}>
                     <Image src={Img} className='imagem' fluid />

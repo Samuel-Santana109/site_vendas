@@ -5,9 +5,12 @@ import {Col, Image} from 'react-bootstrap'
 export function SectionQuemSomosNos(){
     return(
         <section className='SectionTrabalho d-flex align-items-center justify-content-center'>    
-
+                
+                
+                
                 <div className='divImagemTexto text-center'>
-                    <h1 className="tituloPrincipal">Quem Somos Nós</h1>
+                   
+                    <h1 className="tituloPrincipal" id='about'>Quem Somos Nós</h1>
                 
                     {/*Tamanho 6 em telas pequenas (xs) e 4 em médias (md)*/}
                     <Col className="m-auto" xs={8} md={12}>
@@ -16,8 +19,9 @@ export function SectionQuemSomosNos(){
                 </div>
 
                 <div className='text-center p-4'>
-
+                    
                     <div>
+                       
                         <h1 className="tituloPrincipal">Somos uma Referência em Desenvolvimento de Software</h1>
                         <p className="textoPrincipal">A TechWorld é líder no setor de desenvolvimento de software, proporcionando soluções digitais de alta qualidade para empresas de todos os tamanhos. Nosso compromisso é oferecer serviços personalizados e inovadores, impulsionando o crescimento e o sucesso de nossos clientes no ambiente digital.</p>
                     </div>
