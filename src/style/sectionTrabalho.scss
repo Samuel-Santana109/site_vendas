@@ -4,25 +4,6 @@
     min-height: 100vh;
 }
 
-
-  /* Adicione mais estilos conforme necessário */
-  
-.divImagemTexto{
-    padding: 2rem;
-}
-
-.divTextos{
-    gap: 13rem;
-}
-
-.divTitulos{
-    margin-top: 6rem;
- }
-
- .QuemSomosNos{
-   color: red;
- }
-
 @media screen and (max-width: 728px) {
     .SectionTrabalho{
         display: flex;
@@ -34,14 +15,3 @@
        flex-direction: column;
      }
 }
-
-@media screen and (max-width: 425px) {
-  .m-auto{
-    width: 480px;
-    height: 480px;
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center;
-  }
-}
-

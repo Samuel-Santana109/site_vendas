@@ -1,4 +1,6 @@
 import { NavBar } from "../NavBar/NavBar";
+import { Tituloh1, Paragrafo } from "../titulos/titulo";
+import { Lista } from "../lista/lista";
 import '../../style/header.scss';
 
 export function Header(){
@@ -10,17 +12,17 @@ export function Header(){
             </div>
                
             <div className="divh1">
-                <h1 className="h1"> Tech world</h1>
-                <p>Innovation and Creativity</p>
+               <Tituloh1 valueUm="Tech world" /> 
+               <Paragrafo paragrafo="Innovation and Creativity" />
             </div>
 
             <div className="divLista">
-                <ul className="Lista">
-                    <li>Aplicativos</li>
-                    <li>Sites</li>
-                    <li>ChatBot</li>
-                    <li>Planilhas</li>
-                </ul>
+                <Lista 
+                itensUm="Aplicativos"
+                itensDois="Sites"
+                itensTres="ChatBot"
+                itensQuatro="Planilhas"
+                />
             </div>
             
         </header>

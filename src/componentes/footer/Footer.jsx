@@ -1,5 +1,5 @@
 
-import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 import '../../style/footer.scss';
 
