@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .header {
-  background-image: url("../../../public/imagens/fundos/home.jpg");
+  background-image: url("../../public/imagens/fundos/home.jpg");
   background-size: auto;
   background-attachment: fixed;
   background-size: cover;
@@ -22,13 +22,6 @@
   justify-content: center;
   align-items: center;
   color: aliceblue;
-}
-
-.Lista {
-  list-style: none;
-  color: white;
-  display: flex;
-  gap: 10rem;
 }
 
 /* Adicione uma regra de mídia para telas menores (tablets e smartphones) */

@@ -1,3 +1,19 @@
-.SectionTextos{
-    height: 100vh;
+.SectionFormulario {
+    height: 100vh; /* Define a altura da seção para ocupar toda a altura da tela */
+    width: 100%; /* Ocupa toda a largura da seção pai */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+ /* Estilos para o formulário dentro da seção */
+ .Form {
+    height: 60%;
+    width: 100%; /* Define a largura do formulário */
+    padding: 2rem; /* Adiciona um espaçamento interno ao formulário */
+    background-color: #f2f2f2; /* Cor de fundo do formulário */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao formulário */
+
 }

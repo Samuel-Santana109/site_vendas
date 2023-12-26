@@ -6,9 +6,7 @@ export function SectionParallax(){
         <section className='sectionParallax '>    
 
             <div className="divTitulo" id='blog'>
-            <h1>Tech World e Seus Colaboradores</h1><br />
-
-
+            <h1>Acreditamos que os melhores dias estão à frente.</h1><br />
             </div>
 
          

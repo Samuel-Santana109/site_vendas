@@ -1,7 +1,7 @@
 
 import { FaFacebookF, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-import '../../style/footer.scss';
+import './footer.scss';
 
 const Footer = () => {
   return (

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .SectionServicos {
-  background-image: url("../../../public/imagens/fundos/fundoTecnologico.jpg");
+  background-image: url("../../public/imagens/fundos/fundoTecnologico.jpg");
   background-size: auto;
   background-attachment: fixed;
   background-size: cover;
@@ -14,6 +14,10 @@
 .divTitulo {
   padding: 3rem;
   color: aliceblue;
+}
+
+#serviceTech {
+  color: rgb(135, 180, 153);
 }
 
 .imagem {

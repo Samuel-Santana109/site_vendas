@@ -16,28 +16,26 @@ export function SectionPerfil(){
             </div>
     
             <div>
-                <Container> {/* Container Bootstrap */}
-                    <Row> {/* Linha Bootstrap */}
-                        <Col> {/* Coluna Bootstrap */}
-                            <div className="custom-border text-center p-4">
-                                {/* Div com classe personalizada para estilizar a borda, centralizar o conteúdo e adicionar preenchimento */}
+            <Container>
+            <Row>
+                <Col>
+                    <div className="custom-border text-center p-4">
+                        
+                        <h1 className='tituloPrincipal'>Tech World</h1>
+                        <hr className="my-4" />
+                        <p className='textoPrincipal'>Construímos soluções tecnológicas que impulsionam o seu negócio!</p>
+                        <Button variant="outline-dark" className='button'>
+                            Fale conosco
+                        </Button>
+                    </div>
+                </Col>
+            </Row>  
+             <DivPerfil />
+        </Container>
 
-                                <i className="fas fa-star fa-3x d-block my-3"> icone</i>
-                                <h1 className='tituloPrincipal'>Seu Título</h1> 
+                 
 
-                                <hr className="my-4" />
-                                {/* Linha horizontal (borda) com espaçamento */}
-                                <p className='textoPrincipal'>Seu parágrafo abaixo da borda.</p>
-                                    <Button variant="outline-dark" className='button'>
-                                    Fale conosco
-                                    </Button>
-                            </div>
-                        </Col>
-                    </Row>
-
-                    <DivPerfil />
-
-                </Container>
+              
             </div>
             </section>
     );

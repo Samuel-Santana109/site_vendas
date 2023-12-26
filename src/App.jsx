@@ -3,7 +3,7 @@ import { Header } from './componentes/Header/Header';
 import Footer from './componentes/footer/Footer';
 import { SectionPerfil } from './secoes/sectionPerfil/sectionPerfil';
 import { SectionServicos} from './secoes/sectionServics/sectionServicos';
-import { SectionTextos } from './secoes/sectionTexto/sectionTexto';
+import { SectionFormulario } from './secoes/SectionFormulario/SectionFormulario';
 import { SectionQuemSomosNos } from './secoes/SectionQuemSomosNos/SectionQuemSomosNos';
 import { SectionParallax } from './secoes/sectionParallax/sectionParallax';
 import './style/App.scss';
@@ -14,9 +14,9 @@ function App() {
          <Header />
          <SectionPerfil />
          <SectionServicos />
-         <SectionTextos />  
+         <SectionQuemSomosNos /> 
          <SectionParallax />  
-         <SectionQuemSomosNos />     
+         <SectionFormulario />  
          <Footer />    
     </div>
   )

@@ -4,6 +4,34 @@
     min-height: 100vh;
 }
 
+.divTitulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servicoItem {
+    width: 47%; /* Ajuste a largura de cada item conforme necessário */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Media query para telas menores (tablet) */
+@media (max-width: 992px) {
+    .divTitulos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicoItem {
+        width: 45%; /* Reduz a largura dos itens */
+        margin-right: 1rem; /* Adiciona um espaçamento entre os itens */
+        margin-bottom: 2rem;
+    }
+}
+
 @media screen and (max-width: 728px) {
     .SectionTrabalho{
         display: flex;
@@ -14,4 +42,11 @@
        display: flex;
        flex-direction: column;
      }
+}
+
+@media (max-width: 576px) {
+    .servicoItem {
+        width: 100%; /* Define a largura total para os itens ocuparem a tela */
+        margin-right: 0; /* Remove o espaçamento entre os itens */
+    }
 }
