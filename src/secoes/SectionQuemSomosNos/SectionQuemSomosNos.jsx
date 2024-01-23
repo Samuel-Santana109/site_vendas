@@ -5,7 +5,7 @@ import {Col, Image} from 'react-bootstrap'
 
 export function SectionQuemSomosNos(){
     return(
-        <section id='about' className='SectionTrabalho d-flex align-items-center justify-content-center'>
+        <section id='service' className='SectionTrabalho d-flex align-items-center justify-content-center'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6'>
