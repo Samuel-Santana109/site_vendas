@@ -7,14 +7,8 @@
 }
 
   li {
-    background-color: rgb(54, 54, 54);
     padding: 0.7rem;
     border-radius: 1rem;
     width: 100%;
     transition: background-color 0.3s ease; /* Adicionando uma transição suave */
-  }
-  
-  /* Adicionando um efeito de hover */
-  li:hover {
-    background-color: #4b4b4b; /* Mudando a cor de fundo no hover */
   }
